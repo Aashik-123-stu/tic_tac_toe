@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("/tic_backgrnd.jpg");
+    background-size: cover ;
+    text-align: center;
+}
+.container{
+    height: 70%;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+
+}
+.game{
+    height: 30vmin;
+    width: 30vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5vmin;
+
+}
+.box{
+    height: 9vmin;
+    width: 9vmin;
+    font-size: 3vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.9);
+    color: rgb(119, 8, 8);
+    background-color: antiquewhite;
+}
+#reset{
+    height: 90px;
+    width: 200px;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: beige;
+    border-radius: 1rem;
+    border: none;
+}
+.message{
+   color: blanchedalmond;
+   margin-bottom: 70px;
+   font-size: 4vmin;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 2rem;
+}
+#newgame{
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+}
+.hide{
+   display: none;
+}
